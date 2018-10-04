@@ -79,7 +79,7 @@ dependencies {
   compile ("com.adaptris:interlok-core-apt:$interlokCoreVersion") { changing= true}
   compile ("org.slf4j:slf4j-api:$slf4jVersion")
   compile ("io.vertx:vertx-core:3.5.3")
-  compile ("io.vertx:vertx-hazelcast:3.5.3")
+  compile ("io.vertx:vertx-hazelcast:3.5.4")
   compile ("com.hazelcast:hazelcast:3.10.5")
 
   annotationProcessor ("com.adaptris:interlok-common:$interlokCoreVersion") {changing= true}
