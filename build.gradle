@@ -121,7 +121,7 @@ dependencies {
   annotationProcessor ("com.adaptris:interlok-common:$interlokCoreVersion") {changing= true}
   umlDoclet("nl.talsmasoftware:umldoclet:1.1.4")
 
-  testCompile ('junit:junit:4.12')
+  testCompile ('junit:junit:4.13')
   testCompile ('org.mockito:mockito-all:1.10.19')
   testCompile ('org.awaitility:awaitility:4.0.1')
   testCompile ("com.adaptris:interlok-stubs:$interlokCoreVersion") { changing= true }
