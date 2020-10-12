@@ -28,7 +28,7 @@ ext {
   organizationUrl = "http://interlok.adaptris.net"
   slf4jVersion = '1.7.30'
   vertxVersion = '3.9.3'
-  junitVersion = '4.13'
+  junitVersion = '4.13.1'
 }
 
 ext.hasGraphViz = { ->
