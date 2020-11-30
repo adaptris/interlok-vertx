@@ -124,7 +124,7 @@ dependencies {
   compile ("io.vertx:vertx-hazelcast:$vertxVersion") {
     exclude group: 'com.fasterxml.jackson.core', module: 'jackson-databind'
   }
-  compile ("com.fasterxml.jackson.core:jackson-databind:2.11.3")
+  compile ("com.fasterxml.jackson.core:jackson-databind:2.12.0")
   compile ("com.hazelcast:hazelcast:4.0.3")
 
   annotationProcessor ("com.adaptris:interlok-core-apt:$interlokCoreVersion") {changing= true}
