@@ -134,7 +134,7 @@ dependencies {
   compile ("com.hazelcast:hazelcast:4.1.1")
 
   annotationProcessor ("com.adaptris:interlok-core-apt:$interlokCoreVersion") {changing= true}
-  umlDoclet("nl.talsmasoftware:umldoclet:1.1.4")
+  umlDoclet("nl.talsmasoftware:umldoclet:2.0.12")
 
   testCompile ("junit:junit:$junitVersion")
   testCompile ("org.mockito:mockito-core:3.11.2")
