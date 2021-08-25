@@ -30,7 +30,7 @@ ext {
   organizationUrl = "http://interlok.adaptris.net"
   slf4jVersion = '1.7.32'
   vertxVersion = '4.1.2'
-  mockitoVersion = '3.11.2'
+  mockitoVersion = '3.12.3'
 }
 
 ext.hasGraphViz = { ->
