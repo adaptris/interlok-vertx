@@ -143,7 +143,7 @@ dependencies {
   implementation ("com.hazelcast:hazelcast:4.2.2")
 
   annotationProcessor ("com.adaptris:interlok-core-apt:$interlokCoreVersion") {changing= true}
-  umlDoclet("nl.talsmasoftware:umldoclet:1.1.4")
+  umlDoclet("nl.talsmasoftware:umldoclet:2.0.15")
 
   testImplementation ('junit:junit:4.13.2')
   testImplementation ("org.slf4j:slf4j-simple:$slf4jVersion")
